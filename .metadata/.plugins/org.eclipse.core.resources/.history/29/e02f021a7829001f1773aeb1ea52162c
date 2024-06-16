@@ -1,0 +1,33 @@
+package com.webapp.senterprise.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.webapp.senterprise.entities.User;
+import com.webapp.senterprise.service.ProductService;
+
+public class ProductController {
+
+	@Autowired
+	private ProductService productService;
+	
+	@GetMapping("/users")
+	public List<User> getUsers(){
+		return this.productService.getAllProduct();
+	}
+	
+	@GetMapping("/users/{uid}")
+	public User getUser(Long uid) {
+		return this.userService.getUser(uid);
+	}
+	
+	@PostMapping("/users")
+	public User addUser(@RequestBody User user) {
+		System.out.println(user.toString());
+		return this.userService.addUser(user);
+	}
+}

@@ -1,0 +1,5 @@
+package com.webapp.senterprise;
+
+public class SwaggerConfig {
+
+}

@@ -1,0 +1,16 @@
+package com.webapp.senterprise;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
+
+@SpringBootApplication
+@EnableWebMvc
+public class SenterpriseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SenterpriseApplication.class, args);
+	}
+
+}

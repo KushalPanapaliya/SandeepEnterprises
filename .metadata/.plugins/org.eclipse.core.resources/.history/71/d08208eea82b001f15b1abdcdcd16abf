@@ -1,0 +1,13 @@
+package com.webapp.senterprise.service;
+
+import java.util.List;
+
+import com.webapp.senterprise.entities.User;
+
+public interface UserService {
+
+	public List<User> getAllUsers();
+	public User getUser(Long id);
+	public User addUser(User user);
+	public User deleteUser(User user);
+}

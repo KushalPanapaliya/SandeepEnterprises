@@ -1,0 +1,27 @@
+package com.webapp.senterprise.service;
+
+import java.util.List;
+
+import com.webapp.senterprise.entities.Product;
+
+public class ProductServiceImpl implements ProductService {
+
+	@Override
+	public List<Product> getProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getProduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product addProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

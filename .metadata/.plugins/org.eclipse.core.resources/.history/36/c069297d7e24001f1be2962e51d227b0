@@ -1,0 +1,10 @@
+package com.webapp.senterprise.entities;
+
+public class CartItem {
+
+	private long id;
+	private long cartId;
+	private long productId;
+	private int quantity;
+	
+}

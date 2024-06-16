@@ -1,0 +1,7 @@
+package com.webapp.senterprise.entities;
+
+public class Cart {
+	private long id;
+	private long userId;
+	private LocalDateTime createdDate;
+}

@@ -1,0 +1,33 @@
+package com.webapp.senterprise.service;
+
+import java.util.List;
+
+import com.webapp.senterprise.entities.OrderItem;
+
+public class OrderItemServiceImpl implements OrderItemService {
+
+	@Override
+	public OrderItem getOrderItem(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OrderItem> getAllOrderItem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OrderItem> getOrderItemByOrderId(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OrderItem> getOrderItemByProductId(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

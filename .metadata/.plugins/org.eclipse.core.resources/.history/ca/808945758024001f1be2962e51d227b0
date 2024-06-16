@@ -1,0 +1,11 @@
+package com.webapp.senterprise.entities;
+
+public class Review {
+
+	private long id;
+	private long productId;
+	private long userId;
+	private int rating;
+	private String comment;
+	private LocalDateTime reviewDate;
+}

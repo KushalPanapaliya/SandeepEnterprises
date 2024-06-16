@@ -1,0 +1,6 @@
+package com.webapp.senterprise.service;
+
+public interface ReviewService {
+
+	public List<Review> 
+}

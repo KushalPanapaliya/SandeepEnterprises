@@ -1,0 +1,36 @@
+package com.webapp.senterprise.service;
+
+import java.util.List;
+
+import com.webapp.senterprise.entities.Cart;
+
+public class CartServiceImpl implements CartService {
+	
+	@Autowired
+	private CartRepository cartRepository;
+
+	@Override
+	public List<Cart> getCarts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cart getCart(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cart addCart(Cart cart) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Cart getCartByUser(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

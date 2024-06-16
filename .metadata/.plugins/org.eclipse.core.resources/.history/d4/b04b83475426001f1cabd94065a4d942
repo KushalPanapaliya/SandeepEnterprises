@@ -1,0 +1,6 @@
+package com.webapp.senterprise.repositories;
+
+public interface UserRepository {
+
+	
+}

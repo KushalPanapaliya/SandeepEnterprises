@@ -1,0 +1,27 @@
+package com.webapp.senterprise.service;
+
+import java.util.List;
+
+import com.webapp.senterprise.entities.User;
+
+public class ReviewServiceImpl implements UserService {
+
+	@Override
+	public List<User> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User getUser(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User addUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

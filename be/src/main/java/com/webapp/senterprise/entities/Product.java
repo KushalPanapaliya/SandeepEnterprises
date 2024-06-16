@@ -1,0 +1,44 @@
+package com.webapp.senterprise.entities;
+
+import java.math.BigDecimal;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name="product")
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Product extends BaseEntity {
+
+	@Column(length=50)
+	private String name;
+	@Column(length=100)
+	private String description;
+	@Column(length=30)
+	private String catagory;
+	@Column(length=20)
+	private String material;
+	@Column
+	private BigDecimal price;
+	@Column
+	private String dimensions;
+	@Column
+	private Double weight;
+	@Column
+	private String color;
+	@Column
+	private String imageUrl;
+	@Column
+	private Long stock;
+	
+}

@@ -1,0 +1,10 @@
+package com.webapp.senterprise.entities;
+
+public class OrderItem {
+	private long id;
+	private long orderId;
+	private long productId;
+	private int quantity;
+	private double price;
+	
+}

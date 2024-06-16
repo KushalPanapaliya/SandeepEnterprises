@@ -1,0 +1,15 @@
+package com.webapp.senterprise.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+	@Autowired
+	UserService userService;
+	@GetMapping("/users")
+	public List<User> getUsers(){
+		return 
+	}
+	
+}

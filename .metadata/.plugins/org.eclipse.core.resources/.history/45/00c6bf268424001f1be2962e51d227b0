@@ -1,0 +1,11 @@
+package com.webapp.senterprise.entities;
+
+@MapperSuperclass
+@Getter
+@Setter
+public class BaseEntity {
+
+	@id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+}
