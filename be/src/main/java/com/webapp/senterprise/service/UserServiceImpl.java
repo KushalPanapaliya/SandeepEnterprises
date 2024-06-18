@@ -45,7 +45,7 @@ public class UserServiceImpl implements UserService {
 	public UserRepository updateUser(Long id, User user) {
 		Object u = userRepository.findById(id);
 		mapper.map(user, u);
-		((User) u).setId(id);
+		//((User) u).setId(id);
 		return mapper.map(user, UserRepository.class);
 	}
 

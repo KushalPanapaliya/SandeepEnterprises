@@ -1,6 +1,6 @@
 import Catalog from "./Catalog";
 import "./Home.css";
-import ResponsiveAppBar from "./ResponsiveAppBar";
+import ResponsiveAppBar from "./NavBar/ResponsiveAppBar";
 import Sale from "./Sale";
 function Home() {return (
     <>

@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Cart from './Cart';
+import Cart from './Cart/Cart';
 import Profile from './Profile';
 import Product from './Product';
 import Products from './Products';
-import { requirePropFactory } from '@mui/material';
+import Admin from './AdminPage/Admin';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/products/:productId",
     element: <Product />
+  },
+  {
+    path: "/admin",
+    element: <Admin />
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
